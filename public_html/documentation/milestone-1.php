@@ -4,23 +4,7 @@
 		<!-- Ready for mobile. -->
  		<meta charset="UTF-8"
 				name="viewport" content="width=device-width, initial-scale=1.0">
- 		<style>
-			body {
-				font-family: sans-serif;
-			}
-			.penelope {
-				float: right;
-				width: 30%;
-				z-index: 2;
-				display: inline-block;
-			}
-			.persona {
-				float: left;
-				z-index: 1;
-				display: inline-block;
-				width:70%;
-			}
-		</style>
+ 		<link rel="stylesheet" href="style.css">
 		<title> My Personal Page </title>
  	</head>
 
@@ -29,19 +13,19 @@
 			<article>
 				<h1> Milestone One </h1>
 					<h2> Purpose </h2>
-						<p> This project will be a portfolio page focused on front end web development,
-							and the skills needed to successfully deploy a one-page site.  </p>
+						<p> The purpose of this project is to display a functional professional portfolio with a focus on front-end web development.  </p>
 					<h2> Audience </h2>
-						<p> This site is designed with a professional audience in mind. It is designed to engage potential employers,
+						<p> Designed with a professional audience in mind, this site is aimed toward potential employers,
 							clients, and peers within the Albuquerque information technology and web development community.</p>
 					<h2> Goal </h2>
-						<p> The primary goal of this website is to provide a showcase of development skills to potential employers and peers.
-						It is to act as a tangible resume of those skills, and will provide a way for employers, clients, and peers a way to reach out for further opportunities or information.
+						<p> The primary goal of this website is to provide those interested with a point of contact through various social media links or through the built-in contact form.
+							Alternately, this site provides a tangible and pleasant experience as a representation of my ability.
 						</p>
 			</article>
 
 			<aside>
-				<img class ="penelope" src="penelope.jpg" alt="persona picture">
+				<img class >
+					<img class="penelope" src="penelope.jpg" alt="Image of the Client"
 					<div class="persona">
 						<h1> Persona </h1>
 							<p> <strong>Name:</strong> Penelope Perez-Schmidt</p>

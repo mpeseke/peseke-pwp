@@ -1,0 +1,14 @@
+body {
+	font-family: sans-serif;
+}
+.penelope {
+	float: right;
+	width: 30%;
+	display: inline-block;
+}
+.persona {
+	float: left;
+	display: inline-block;
+	width: 70%;
+	margin-right: 20px;
+}
