@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
- 		<meta charset="UTF-8"
-				name="viewport" content="width=device-width, initial-scale=1.0">
+ 		<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
  		<link rel="stylesheet" href="style.css">
 		<title> My Personal Page </title>
  	</head>
@@ -23,8 +22,11 @@
 			</article>
 
 			<aside>
+
 					<img class="penelope" src="penelope.jpg" alt="Image of the Client">
+
 					<div class="persona">
+
 						<h1> Persona </h1>
 							<p> <strong>Name:</strong> Penelope Perez-Schmidt</p>
 							<p> <strong>Age:</strong> 37</p>
