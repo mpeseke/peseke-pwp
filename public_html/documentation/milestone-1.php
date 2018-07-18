@@ -12,10 +12,13 @@
 				float: right;
 				width: 30%;
 				z-index: 2;
+				display: inline-block;
 			}
 			.persona {
 				float: left;
 				z-index: 1;
+				display: inline-block;
+				width:70%;
 			}
 		</style>
 		<title> My Personal Page </title>
