@@ -31,6 +31,7 @@
 				</p>
 			<h4>Contact Me.</h4>
 				<p> This section will contain a contact form for sending secure email to reach out to me with interest, as well as links to my GitHub, LinkedIn, Twitter, and Slack for project collaboration.</p>
-
+			<h4>Footer</h4>
+				<p> I am struggling with what to put in the footer. It's starting to fall into one of those "Let The Project Speak to You" categories, and I am still in consideration.</p>
 	</body>
 </html>
