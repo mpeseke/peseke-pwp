@@ -33,5 +33,12 @@
 				<p> This section will contain a contact form for sending secure email to reach out to me with interest, as well as links to my GitHub, LinkedIn, Twitter, and Slack for project collaboration.</p>
 			<h4>Footer</h4>
 				<p> I am struggling with what to put in the footer. It's starting to fall into one of those "Let The Project Speak to You" categories, and I am still in consideration.</p>
+
+		<h2>Wireframes</h2>
+
+			<h4>Mobile</h4>
+				<img src="mobile-wireframe.png" alt="mobile wireframe"/>
+			<h4>Browser</h4>
+				<img src="browser-wireframe.png" alt="browser wireframe"/>
 	</body>
 </html>
