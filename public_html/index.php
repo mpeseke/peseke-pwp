@@ -66,7 +66,7 @@
 		<!-- Main Content, let's get down to the nitty gritty. -->
 
 		<!-- About Me -->
-		<article class="container-fluid">
+		<article class="container">
 			<div class="row">
 				<div class="col-md-12">
 				<h1 class="display-4 mx-2 text-center text-md-left">About Me</h1>
@@ -93,7 +93,7 @@
 			</div>
 		</article>
 			<!-- Projects -->
-		<article class="container-fluid bg-dark p-3"
+		<article class="container-fluid bg-dark p-3">
 			<div class="row">
 				<div class="col-md-12">
 					<h1 class="display-4 mx-2 text-center text-md-right">Projects</h1>
@@ -135,7 +135,43 @@
 						roof party, taxidermy hammock ethical cardigan wolf aesthetic ramps portland la croix enamel pin DIY.</p>
 				</div>
 			</div>
+		</article>
 		<!-- Contact Form and Link -->
+		<section class="container">
+			<div class="row">
+				<div class="col-md-6 form-wrapper">
+					<h1 class="display-4 mx-2 text-center text-md-left">Send Me a Message!</h1>
+					<hr/>
+					<form>
+						<div class="form-group">
+							<label for="name">Name</label><br/>
+							<input type="text" name="name" id="name">
+						</div>
 
+						<div class="form-group">
+							<label for="email">Email</label><br/>
+							<input type="email" name="email" id="email">
+						</div>
+
+						<div class="form-group">
+							<label for="subject">Subject</label><br/>
+							<input type="text" name="subject" id="subject">
+						</div>
+
+						<div class="form-group">
+							<label for="message">Message</label><br/>
+							<textarea name="message" id="message" cols="20" rows="10" maxlength="1000" placeholder="1000 Chars Max"></textarea>
+						</div>
+
+						<button type="reset">Reset</button>
+						<button type="button">Send</button>
+					</form>
+				</div>
+
+				<div class="col-md-6" id="links">
+
+				</div>
+			</div>
+		</section>
 	</body>
 </html>
