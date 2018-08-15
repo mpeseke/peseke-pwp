@@ -29,22 +29,22 @@
 			<div class="collapse navbar-collapse" id="navbar">
 				<ul class="navbar-nav mr-auto">
 					<li class="nav-item">
-						<a class="nav-link" href="#">About Me</a>
+						<a class="nav-link" href="index.php#about">About Me</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Projects</a>
+						<a class="nav-link" href="index.php#project">Projects</a>
 					</li>
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
 							Contact Me
 						</a>
 						<div class="dropdown-menu">
-							<a class="dropdown-item" href="#">Send me a Message</a>
+							<a class="dropdown-item" href="index.php#contact">Send me a Message</a>
 							<div class="dropdown-divider"></div>
-							<a class="dropdown-item" href="#">Check out my GitHub</a>
+							<a class="dropdown-item" href="https://github.com/mpeseke">Check out my GitHub</a>
 							<a class="dropdown-item" href="#">Slack Me</a>
-							<a class="dropdown-item" href="#">Follow me on Twitter</a>
-							<a class="dropdown-item" href="#">Connect With Me on LinkedIn</a>
+							<a class="dropdown-item" href="https://twitter.com/MPeseke">Follow me on Twitter</a>
+							<a class="dropdown-item" href="https://www.linkedin.com/in/mpeseke/">Connect With Me on LinkedIn</a>
 						</div>
 					</li>
 				</ul>
@@ -53,9 +53,12 @@
 
 		<!-- Jumbotron Header -->
 		<header class="jumbotron-fluid d-flex flex-column m-0 p-4">
-			<p class="lead">Dreamer. Creator. Developer.</p>
+			<p class="display-4 mb-3 text-center text-md-left">Dreamer. Creator. Developer.</p>
 
-			<img class="img-fluid rounded-circle align-self-end" src="content/headshot.jpg" alt="image of Marlon Peseke">
+			<div class="align-self-end mb-3">
+				<img class="img-fluid rounded-circle" src="content/headshot.jpg" alt="image of Marlon Peseke">
+			</div>
+
 			<blockquote class="blockquote">
 				<p class="font-italic pt-2">"Imagining something may be the first step in making it happen..."</p>
 				<footer class="blockquote-footer">Fred Rogers</footer>
@@ -66,7 +69,7 @@
 		<!-- Main Content, let's get down to the nitty gritty. -->
 
 		<!-- About Me -->
-		<article class="container">
+		<article id="about" class="container-fluid p-3 pb-3">
 			<div class="row">
 				<div class="col-md-12">
 				<h1 class="display-4 mx-2 text-center text-md-left">About Me</h1>
@@ -93,7 +96,7 @@
 			</div>
 		</article>
 			<!-- Projects -->
-		<article class="container-fluid bg-dark text-light p-3">
+		<article id="project" class="container-fluid bg-dark text-light p-3">
 			<div class="row">
 				<div class="col-md-12">
 					<h1 class="display-4 mx-2 text-center text-md-right">Projects</h1>
@@ -137,7 +140,7 @@
 			</div>
 		</article>
 		<!-- Contact Form and Link -->
-		<section class="container">
+		<article id="contact" class="container-fluid p-3">
 			<div class="row">
 				<div class="col-md-12">
 					<h1 class="display-4 mx-2 text-center text-md-left">Send Me a Message!</h1>
@@ -145,42 +148,51 @@
 			</div>
 			<hr/>
 			<div class="row">
-				<div class="col-md-6 form-wrapper">
-					<form>
-						<div class="form-group">
-							<label for="name">Name</label><br/>
-							<input type="text" name="name" id="name">
+				<!-- Contact Form -->
+				<div class="col-md-6 mb-3">
+					<!--Name-->
+					<div class="input-group mb-3">
+						<div class="input-group-prepend">
+							<span class="input-group-text" id="basic-addon1">Name</span>
 						</div>
-
-						<div class="form-group">
-							<label for="email">Email</label><br/>
-							<input type="email" name="email" id="email">
+						<input type="text" class="form-control">
+					</div>
+					<!--Email-->
+					<div class="input-group mb-3">
+						<div class="input-group-prepend">
+							<span class="input-group-text" id="basic-addon1">Email</span>
 						</div>
-
-						<div class="form-group">
-							<label for="subject">Subject</label><br/>
-							<input type="text" name="subject" id="subject">
+						<input type="email" class="form-control">
+					</div>
+					<!--Subject-->
+					<div class="input-group mb-3">
+						<div class="input-group-prepend">
+							<span class="input-group-text" id="basic-addon1">Subject</span>
 						</div>
-
-						<div class="form-group">
-							<label for="message">Message</label><br/>
-							<textarea name="message" id="message" cols="20" rows="10" maxlength="1000" placeholder="1000 Chars Max"></textarea>
+						<input type="text" class="form-control">
+					</div>
+					<!-- Message -->
+					<div class="input-group mb-3">
+						<div class="input-group-prepend">
+							<span class="input-group-text">Message</span>
 						</div>
-
-						<button type="reset">Reset</button>
-						<button type="button">Send</button>
-					</form>
+						<textarea class="form-control"></textarea>
+					</div>
+					<button type="submit" class="btn btn-success">Submit</button>
+					<button type="reset" class="btn btn-danger">Reset</button>
 				</div>
 
-				<div class="col-md-6" id="links">
-					<div class="container">
-						<a href="https://github.com/mpeseke"><img class="img-fluid" src="content/github-logo.png" alt="github logo"></a>
-						<a href="https://www.linkedin.com/in/mpeseke/"><img class="img-fluid" src="content/linkedin-logo.png" alt="linkedIn logo"></a>
-						<a href="https://twitter.com/MPeseke"><img class="img-fluid" src="content/twitter-logo.png" alt="twitter logo"></a>
-						<a href="#"><img class="img-fluid" src="content/slack-logo.png" alt="slack logo"></a>
-					</div>
+				<!-- Links -->
+				<div class="col-md-6">
+					<blockquote class="blockquote text-md-right p-3">
+						<p class="font-italic pt-2">"If we marry educational technology with quality, enriching content, that's a circle of win."</p>
+						<footer class="blockquote-footer">LeVar Burton</footer>
+					</blockquote>
+
+
 				</div>
 			</div>
-		</section>
+
+		</article>
 	</body>
 </html>

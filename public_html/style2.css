@@ -1,5 +1,11 @@
-.jumbotron-fluid {
-	background-size: cover;
-	color: #413E39;
+body {
+	font-family: monospace;
 }
 
+#about {
+	background-color: #51648A;
+	color: white;
+}
+#contact {
+	background-color: #BEBD8D;
+}
