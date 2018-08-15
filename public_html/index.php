@@ -93,7 +93,7 @@
 			</div>
 		</article>
 			<!-- Projects -->
-		<article class="container-fluid bg-dark p-3">
+		<article class="container-fluid bg-dark text-light p-3">
 			<div class="row">
 				<div class="col-md-12">
 					<h1 class="display-4 mx-2 text-center text-md-right">Projects</h1>
@@ -139,9 +139,13 @@
 		<!-- Contact Form and Link -->
 		<section class="container">
 			<div class="row">
-				<div class="col-md-6 form-wrapper">
+				<div class="col-md-12">
 					<h1 class="display-4 mx-2 text-center text-md-left">Send Me a Message!</h1>
-					<hr/>
+				</div>
+			</div>
+			<hr/>
+			<div class="row">
+				<div class="col-md-6 form-wrapper">
 					<form>
 						<div class="form-group">
 							<label for="name">Name</label><br/>
@@ -169,7 +173,12 @@
 				</div>
 
 				<div class="col-md-6" id="links">
-
+					<div class="container">
+						<a href="https://github.com/mpeseke"><img class="img-fluid" src="content/github-logo.png" alt="github logo"></a>
+						<a href="https://www.linkedin.com/in/mpeseke/"><img class="img-fluid" src="content/linkedin-logo.png" alt="linkedIn logo"></a>
+						<a href="https://twitter.com/MPeseke"><img class="img-fluid" src="content/twitter-logo.png" alt="twitter logo"></a>
+						<a href="#"><img class="img-fluid" src="content/slack-logo.png" alt="slack logo"></a>
+					</div>
 				</div>
 			</div>
 		</section>
