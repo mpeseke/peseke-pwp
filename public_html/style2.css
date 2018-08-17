@@ -9,3 +9,12 @@ body {
 #contact {
 	background-color: #BEBD8D;
 }
+
+.parallax {
+	background: url("content/drops.jpg") no-repeat center fixed;
+	background-size: auto;
+	height: 20rem;
+	color:  #51648A;
+	text-shadow: 0 0 1rem yellow;
+	padding: 8rem;
+}

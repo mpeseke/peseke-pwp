@@ -55,9 +55,7 @@
 		<header class="jumbotron-fluid d-flex flex-column m-0 p-4">
 			<p class="display-4 mb-3 text-center text-md-left">Dreamer. Creator. Developer.</p>
 
-			<div class="align-self-end mb-3">
-				<img class="img-fluid rounded-circle" src="content/headshot.jpg" alt="image of Marlon Peseke">
-			</div>
+
 
 			<blockquote class="blockquote">
 				<p class="font-italic pt-2">"Imagining something may be the first step in making it happen..."</p>
@@ -67,15 +65,16 @@
 		</header>
 
 		<!-- Main Content, let's get down to the nitty gritty. -->
-
-		<!-- About Me -->
-		<article id="about" class="container-fluid p-3 pb-3">
-			<div class="row">
-				<div class="col-md-12">
-				<h1 class="display-4 mx-2 text-center text-md-left">About Me</h1>
+		<div class="row">
+			<div class="container-fluid">
+				<div class="parallax">
+					<h1 class="display-4 text-center">About Me</h1>
 				</div>
 			</div>
-			<hr/>
+		</div>
+		<!-- About Me -->
+		<article id="about" class="container-fluid p-3 pb-3">
+
 			<div class="row">
 				<div class="col-md-8">
 					<p class="mx-2">
@@ -92,6 +91,12 @@
 						man braid kombucha swag iPhone truffaut twee. Normcore cray gentrify keytar. Crucifix tumeric lo-fi la
 						croix etsy distillery. Cred sriracha craft beer fashion axe thundercats pitchfork, typewriter meggings chartreuse.
 					</p>
+				</div>
+
+				<div class="col-md-4 text-center order-first order-sm-first order-md-last order-lg-last">
+
+						<img class="img-thumbnail" src="content/headshot.jpg" alt="image of Marlon Peseke">
+
 				</div>
 			</div>
 		</article>
