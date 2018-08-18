@@ -1,5 +1,6 @@
-body {
-	/*font-family: monospace;*/
+body{
+	font-family: Consolas;
+
 }
 
 @media only screen
@@ -7,6 +8,7 @@ and (min-device-width : 320px)
 and (max-device-width : 1024px)  {
 	#jumbo {
 		font-size: 1.25em;
+		padding-top: 1.5rem;
 	}
 }
 

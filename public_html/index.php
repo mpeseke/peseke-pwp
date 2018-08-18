@@ -26,7 +26,7 @@
 			</button>
 
 			<div class="collapse navbar-collapse" id="navbar">
-				<ul class="navbar-nav mr-auto">
+				<ul class="navbar-nav ml-auto">
 					<li class="nav-item">
 						<a class="nav-link" href="index.php#about">About Me</a>
 					</li>
