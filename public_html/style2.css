@@ -1,20 +1,84 @@
 body {
-	font-family: monospace;
+	/*font-family: monospace;*/
 }
 
-#about {
-	background-color: #51648A;
-	color: white;
-}
-#contact {
-	background-color: #BEBD8D;
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 1024px)  {
+	#jumbo {
+		font-size: 1.25em;
+	}
 }
 
-.parallax {
-	background: url("content/drops.jpg") no-repeat center fixed;
+#air {
+	background: linear-gradient(rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), no-repeat center fixed url("content/air.jpg");
 	background-size: auto;
-	height: 20rem;
-	color:  #51648A;
-	text-shadow: 0 0 1rem yellow;
-	padding: 8rem;
+	height: 15rem;
+	color: white;
+	padding-top: 5rem;
+}
+
+/* ===== Style for smartphone and iPad in portrait & landscape== =  */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 1024px)  {
+	#air {
+		background-position: center top;
+		height: 10rem;
+		padding-top: 3rem;
+	}
+}
+
+
+#water {
+	background: linear-gradient(rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), no-repeat center fixed url("content/drops.jpg");
+	background-size: auto;
+	height: 15rem;
+	color: white;
+	padding-top: 5rem;
+}
+
+/* ===== Style for smartphone and iPad in portrait & landscape== =  */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 1024px)  {
+	#water {
+		background-position: center top;
+		height: 10rem;
+		padding-top: 3rem;
+	}
+}
+
+#fire {
+	background: linear-gradient(rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), no-repeat center fixed url("content/fire.jpg");
+	background-size: auto;
+	height: 15rem;
+	color: white;
+	padding-top: 5rem;
+}
+
+@media screen and (max-width: 900px) {
+	#fire {
+		height: 10rem;
+		padding-top: 3rem;
+	}
+}
+
+#earth {
+	background: linear-gradient(rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), no-repeat center fixed url("content/earth.jpg");
+	background-size: auto;
+	height: 15rem;
+	color: white;
+	padding-top: 5rem;
+}
+
+/* ===== Style for smartphone and iPad in portrait & landscape== =  */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 1024px)  {
+	#earth {
+		background-position: center bottom;
+		height: 10rem;
+		padding-top: 3rem;
+	}
 }

@@ -6,8 +6,7 @@
  		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-		<!-- BootStrap
-			CSS and jQuery Slim-->
+		<!-- BootStrap CSS and jQuery Slim-->
 
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 		<link rel="stylesheet" href="style2.css">
@@ -52,10 +51,12 @@
 		</nav>
 
 		<!-- Jumbotron Header -->
-		<header class="jumbotron-fluid d-flex flex-column m-0 p-4">
-			<p class="display-4 mb-3 text-center text-md-left">Dreamer. Creator. Developer.</p>
+		<header class="jumbotron-fluid d-flex flex-column m-0 p-0">
 
 
+			<div id="air" class="container-fluid parallax">
+				<h1 id="jumbo" class="display-4 text-center">Dreamer. Creator. Developer.</h1>
+			</div>
 
 			<blockquote class="blockquote">
 				<p class="font-italic pt-2">"Imagining something may be the first step in making it happen..."</p>
@@ -64,16 +65,16 @@
 
 		</header>
 
-		<!-- Main Content, let's get down to the nitty gritty. -->
+		<!-- About Me Header -->
 		<div class="row">
-			<div class="container-fluid">
-				<div class="parallax">
+
+				<div id="water" class="container-fluid parallax">
 					<h1 class="display-4 text-center">About Me</h1>
 				</div>
-			</div>
+
 		</div>
 		<!-- About Me -->
-		<article id="about" class="container-fluid p-3 pb-3">
+		<article id="about" class="container-fluid p-3 pb-3 bg-dark text-light">
 
 			<div class="row">
 				<div class="col-md-8">
@@ -92,22 +93,18 @@
 						croix etsy distillery. Cred sriracha craft beer fashion axe thundercats pitchfork, typewriter meggings chartreuse.
 					</p>
 				</div>
-
-				<div class="col-md-4 text-center order-first order-sm-first order-md-last order-lg-last">
-
+				<div class="col-md-4 text-center order-first order-sm-first order-md-last order-lg-last my-3">
 						<img class="img-thumbnail" src="content/headshot.jpg" alt="image of Marlon Peseke">
-
 				</div>
 			</div>
 		</article>
+		<!-- Project Header-->
+		<div class="row">
+			<div id="fire" class="container-fluid parallax">
+				<h1 class="display-4 text-center">Projects</h1></div>
+		</div>
 			<!-- Projects -->
 		<article id="project" class="container-fluid bg-dark text-light p-3">
-			<div class="row">
-				<div class="col-md-12">
-					<h1 class="display-4 mx-2 text-center text-md-right">Projects</h1>
-				</div>
-			</div>
-			<hr/>
 		<!-- Carousel -->
 			<div class="row">
 				<div class="col-md-6 my-3">
@@ -144,14 +141,17 @@
 				</div>
 			</div>
 		</article>
-		<!-- Contact Form and Link -->
-		<article id="contact" class="container-fluid p-3">
-			<div class="row">
-				<div class="col-md-12">
-					<h1 class="display-4 mx-2 text-center text-md-left">Send Me a Message!</h1>
-				</div>
+		<!-- Contact Form Header-->
+		<div class="row">
+
+			<div id="earth" class="container-fluid parallax">
+				<h1 class="display-4 text-center">Message Me</h1>
 			</div>
-			<hr/>
+
+		</div>
+		<!-- Contact Form -->
+		<article id="contact" class="container-fluid p-3 bg-dark text-light">
+
 			<div class="row">
 				<!-- Contact Form -->
 				<div class="col-md-6 mb-3">
