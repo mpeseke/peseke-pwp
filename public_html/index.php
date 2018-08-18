@@ -58,12 +58,13 @@
 				<h1 id="jumbo" class="display-4 text-center">Dreamer. Creator. Developer.</h1>
 			</div>
 
-			<blockquote class="blockquote">
-				<p class="font-italic pt-2">"Imagining something may be the first step in making it happen..."</p>
-				<footer class="blockquote-footer">Fred Rogers</footer>
-			</blockquote>
-
 		</header>
+
+		<blockquote class="blockquote m-2 p-5">
+			<p class="font-italic pt-2">"Imagining something may be the first step in making it happen..."</p>
+			<footer class="blockquote-footer">Fred Rogers</footer>
+		</blockquote>
+
 
 		<!-- About Me Header -->
 		<div class="row">
