@@ -19,29 +19,29 @@
  	</head>
 	<body>
 		<!-- Navbar -->
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<nav class="navbar navbar-expand-md navbar-light bg-dark text-light py-3">
 			<a class="navbar-brand">Marlon Oliver Peseke</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+
+			<button class="navbar-toggler navbar-toggler-right text-light" type="button" data-toggle="collapse" data-target="#navbar">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 
 			<div class="collapse navbar-collapse" id="navbar">
-				<ul class="navbar-nav ml-auto">
+				<ul class="navbar-nav ml-auto text-light">
 					<li class="nav-item">
 						<a class="nav-link" href="index.php#about">About Me</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="index.php#project">Projects</a>
 					</li>
-					<li class="nav-item dropdown">
+					<li class="nav-item dropdown hidden-md-down">
 						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
 							Contact Me
 						</a>
-						<div class="dropdown-menu">
+						<div class="dropdown-menu dropdown-menu-right">
 							<a class="dropdown-item" href="index.php#contact">Send me a Message</a>
 							<div class="dropdown-divider"></div>
 							<a class="dropdown-item" href="https://github.com/mpeseke">Check out my GitHub</a>
-							<a class="dropdown-item" href="#">Slack Me</a>
 							<a class="dropdown-item" href="https://twitter.com/MPeseke">Follow me on Twitter</a>
 							<a class="dropdown-item" href="https://www.linkedin.com/in/mpeseke/">Connect With Me on LinkedIn</a>
 						</div>
@@ -51,25 +51,25 @@
 		</nav>
 
 		<!-- Jumbotron Header -->
-		<header class="jumbotron-fluid d-flex flex-column m-0 p-0">
+		<div class="container-fluid d-flex flex-column m-0 bg-dark text-light">
 
 
-			<div id="air" class="container-fluid parallax">
+			<div id="air" class="container parallax">
 				<h1 id="jumbo" class="display-4 text-center">Dreamer. Creator. Developer.</h1>
 			</div>
 
-		</header>
+		</div>
 
-		<blockquote class="blockquote m-2 p-5">
+		<blockquote class="blockquote m-0 bg-dark text-light p-5">
 			<p class="font-italic pt-2">"Imagining something may be the first step in making it happen..."</p>
 			<footer class="blockquote-footer">Fred Rogers</footer>
 		</blockquote>
 
 
 		<!-- About Me Header -->
-		<div class="row">
+		<div class="row bg-dark text-light">
 
-				<div id="water" class="container-fluid parallax">
+				<div id="water" class="container parallax bg-dark text-light">
 					<h1 class="display-4 text-center">About Me</h1>
 				</div>
 
@@ -77,7 +77,7 @@
 		<!-- About Me -->
 		<article id="about" class="container-fluid p-3 pb-3 bg-dark text-light">
 
-			<div class="row">
+			<div class="row mt-3">
 				<div class="col-md-8">
 					<p class="mx-2">
 						Lorem ipsum dolor amet vaporware 90's quinoa put a bird on it banh mi selfies echo park pop-up slow-carb
@@ -100,19 +100,19 @@
 			</div>
 		</article>
 		<!-- Project Header-->
-		<div class="row">
-			<div id="fire" class="container-fluid parallax">
+		<div class="row bg-dark text-light">
+			<div id="fire" class="container parallax">
 				<h1 class="display-4 text-center">Projects</h1></div>
 		</div>
 			<!-- Projects -->
 		<article id="project" class="container-fluid bg-dark text-light p-3">
-		<!-- Carousel -->
-			<div class="row">
+<!--		 Carousel-->
+			<div class="row mt-3">
 				<div class="col-md-6 my-3">
 					<div id="Carousel" class="carousel slide" data-ride="carousel">
 						<div class="carousel-inner">
 							<div class="carousel-item active">
-								<a href="https://placeholder.com"><img class="d-block w-100" src="http://morganfillman.space/450/300"></a>
+								<a href="https://placeholder.com"><img class="d-block w-100" src="https://placeimg.com/450/300/tech/grayscale"></a>
 							</div>
 							<div class="carousel-item">
 								<a href="https://placeholder.com"><img class="d-block w-100" src="http://placebeard.it/450x300"></a>
@@ -140,20 +140,20 @@
 						gochujang tofu hoodie bicycle rights leggings thundercats 90's organic. Dreamcatcher gochujang banh mi
 						roof party, taxidermy hammock ethical cardigan wolf aesthetic ramps portland la croix enamel pin DIY.</p>
 				</div>
-			</div>
+<!--			</div>-->
 		</article>
 		<!-- Contact Form Header-->
-		<div class="row">
+		<div class="row bg-dark text-light">
 
-			<div id="earth" class="container-fluid parallax">
-				<h1 class="display-4 text-center">Message Me</h1>
+			<div id="earth" class="container parallax">
+				<h1 class="display-4 text-center mb-3">Message Me</h1>
 			</div>
 
 		</div>
 		<!-- Contact Form -->
 		<article id="contact" class="container-fluid p-3 bg-dark text-light">
 
-			<div class="row">
+			<div class="row mt-3">
 				<!-- Contact Form -->
 				<div class="col-md-6 mb-3">
 					<!--Name-->
