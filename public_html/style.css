@@ -10,6 +10,7 @@ body {
 	margin-right: 0;
 }
 
+
 @media only screen
 and (min-device-width : 240px)
 and (max-device-width : 1024px)  {
@@ -89,6 +90,18 @@ and (max-device-width : 1024px)  {
 		background-position: center bottom;
 		height: 10rem;
 		padding-top: 3rem;
+	}
+}
+
+button {
+	margin-right: 0.5rem;
+}
+
+@media only screen
+	and (min-device-width: 320px)
+	and (max-device-width: 1024px) {
+	.buttons {
+		text-align: center;
 	}
 }
 

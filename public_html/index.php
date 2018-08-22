@@ -31,14 +31,14 @@
 			<div class="collapse navbar-collapse" id="navbar">
 				<ul class="navbar-nav ml-auto text-light">
 					<li class="nav-item">
-						<a class="nav-link" href="index.php#about">About Me</a>
+						<a class="nav-link" href="index.php#about"><i class="far fa-fw fa-user-circle"></i>About Me</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="index.php#project">Projects</a>
+						<a class="nav-link" href="index.php#project"> <i class="fas fa-laptop fa-fw"></i> Projects</a>
 					</li>
 					<li class="nav-item dropdown hidden-md-down">
 						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
-							Contact Me
+							<i class="far fa-fw fa-hand-point-right"></i>Contact Me
 						</a>
 						<div class="dropdown-menu dropdown-menu-right">
 							<a class="dropdown-item" href="index.php#contact">Send me a Message</a>
@@ -69,7 +69,7 @@
 
 
 		<!-- About Me Header -->
-		<div class="row bg-dark text-light">
+		<div id="about" class="row bg-dark text-light">
 
 				<div class="container water parallax bg-dark text-light">
 					<h1 class="display-4 text-center">About Me</h1>
@@ -77,7 +77,7 @@
 
 		</div>
 		<!-- About Me -->
-		<article id="about" class="container p-3 pb-3 bg-dark text-light">
+		<article class="container p-3 pb-3 bg-dark text-light">
 
 			<div class="row mt-3">
 				<div class="col-md-8">
@@ -102,7 +102,7 @@
 			</div>
 		</article>
 		<!-- Project Header-->
-		<div class="row bg-dark text-light">
+		<div id="project" class="row bg-dark text-light">
 			<div class="container fire parallax">
 				<h1 class="display-4 text-center">Projects</h1></div>
 		</div>
@@ -145,7 +145,7 @@
 <!--			</div>-->
 		</article>
 		<!-- Contact Form Header-->
-		<div class="row bg-dark text-light">
+		<div id="contact" class="row bg-dark text-light">
 
 			<div class="container earth parallax">
 				<h1 class="display-4 text-center mb-3">Message Me</h1>
@@ -161,21 +161,21 @@
 					<!--Name-->
 					<div class="input-group mb-3">
 						<div class="input-group-prepend">
-							<span class="input-group-text" id="basic-addon1"><i class="fas fa-fw fa-file-signature"></i>Name</span>
+							<span class="input-group-text"><i class="fas fa-fw fa-file-signature"></i>Name</span>
 						</div>
 						<input type="text" class="form-control">
 					</div>
 					<!--Email-->
 					<div class="input-group mb-3">
 						<div class="input-group-prepend">
-							<span class="input-group-text" id="basic-addon1"><i class="fas fa-fw fa-at"></i>Email</span>
+							<span class="input-group-text"><i class="fas fa-fw fa-at"></i>Email</span>
 						</div>
 						<input type="email" class="form-control">
 					</div>
 					<!--Subject-->
 					<div class="input-group mb-3">
 						<div class="input-group-prepend">
-							<span class="input-group-text" id="basic-addon1"><i class="fas fa-fw fa-comment-alt"></i>Subject</span>
+							<span class="input-group-text"><i class="fas fa-fw fa-comment-alt"></i>Subject</span>
 						</div>
 						<input type="text" class="form-control">
 					</div>
@@ -186,8 +186,11 @@
 						</div>
 						<textarea class="form-control"></textarea>
 					</div>
-					<button type="submit" class="btn btn-success">Submit</button>
-					<button type="reset" class="btn btn-danger">Reset</button>
+
+					<div class="buttons">
+						<button type="submit" class="btn btn-success"><i class="fas fa-check-circle fa-fw"></i>Submit</button>
+						<button type="reset" class="btn btn-danger"><i class="fas fa-history fa-fw"></i>Reset</button>
+					</div>
 				</div>
 
 				<!-- Links -->
