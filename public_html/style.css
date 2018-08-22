@@ -5,6 +5,11 @@ body {
 	background-color: #343a40;
 }
 
+.row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
 @media only screen
 and (min-device-width : 240px)
 and (max-device-width : 1024px)  {
@@ -14,7 +19,7 @@ and (max-device-width : 1024px)  {
 	}
 }
 
-#air {
+.air {
 	background: linear-gradient(rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.65) 100%), no-repeat center fixed url("content/air.jpg");
 	background-size: auto;
 	height: 15rem;
@@ -26,7 +31,7 @@ and (max-device-width : 1024px)  {
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 1024px)  {
-	#air {
+	.air {
 		background-position: center top;
 		height: 10rem;
 		padding-top: 3rem;
@@ -34,7 +39,7 @@ and (max-device-width : 1024px)  {
 }
 
 
-#water {
+.water {
 	background: linear-gradient(rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.65) 100%), no-repeat center fixed url("content/drops.jpg");
 	background-size: auto;
 	height: 15rem;
@@ -46,14 +51,14 @@ and (max-device-width : 1024px)  {
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 1024px)  {
-	#water {
+	.water {
 		background-position: center top;
 		height: 10rem;
 		padding-top: 3rem;
 	}
 }
 
-#fire {
+.fire {
 	background: linear-gradient(rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.65) 100%), no-repeat center fixed url("content/fire.jpg");
 	background-size: auto;
 	height: 15rem;
@@ -62,13 +67,13 @@ and (max-device-width : 1024px)  {
 }
 
 @media screen and (max-width: 900px) {
-	#fire {
+	.fire {
 		height: 10rem;
 		padding-top: 3rem;
 	}
 }
 
-#earth {
+.earth {
 	background: linear-gradient(rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.65) 100%), no-repeat center fixed url("content/earth.jpg");
 	background-size: auto;
 	height: 15rem;
@@ -80,7 +85,7 @@ and (max-device-width : 1024px)  {
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 1024px)  {
-	#earth {
+	.earth {
 		background-position: center bottom;
 		height: 10rem;
 		padding-top: 3rem;
@@ -98,5 +103,5 @@ footer {
 }
 
 .fab:hover{
-	color: darkslateblue;
+	color: dodgerblue;
 }

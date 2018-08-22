@@ -56,7 +56,7 @@
 		<div class="container-fluid d-flex flex-column m-0 bg-dark text-light">
 
 
-			<div id="air" class="container parallax">
+			<div class="container air parallax">
 				<h1 id="jumbo" class="display-4 text-center">Dreamer. Creator. Developer.</h1>
 			</div>
 
@@ -71,7 +71,7 @@
 		<!-- About Me Header -->
 		<div class="row bg-dark text-light">
 
-				<div id="water" class="container parallax bg-dark text-light">
+				<div class="container water parallax bg-dark text-light">
 					<h1 class="display-4 text-center">About Me</h1>
 				</div>
 
@@ -103,15 +103,15 @@
 		</article>
 		<!-- Project Header-->
 		<div class="row bg-dark text-light">
-			<div id="fire" class="container parallax">
+			<div class="container fire parallax">
 				<h1 class="display-4 text-center">Projects</h1></div>
 		</div>
 			<!-- Projects -->
-		<article id="project" class="container bg-dark text-light p-3">
+		<article class="container bg-dark text-light p-3">
 <!--		 Carousel-->
 			<div class="row mt-3">
 				<div class="col-md-6 my-3">
-					<div id="Carousel" class="carousel slide" data-ride="carousel">
+					<div class="carousel slide" data-ride="carousel">
 						<div class="carousel-inner">
 							<div class="carousel-item active">
 								<a href="https://placeholder.com"><img class="d-block w-100" src="https://placeimg.com/450/300/tech/grayscale"></a>
@@ -147,13 +147,13 @@
 		<!-- Contact Form Header-->
 		<div class="row bg-dark text-light">
 
-			<div id="earth" class="container parallax">
+			<div class="container earth parallax">
 				<h1 class="display-4 text-center mb-3">Message Me</h1>
 			</div>
 
 		</div>
 		<!-- Contact Form -->
-		<article id="contact" class="container p-3 bg-dark text-light">
+		<article class="container p-3 bg-dark text-light">
 
 			<div class="row mt-3">
 				<!-- Contact Form -->
