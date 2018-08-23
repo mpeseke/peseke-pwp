@@ -109,9 +109,12 @@
 			<!-- Projects -->
 		<article class="container bg-dark text-light p-3">
 <!--		 Carousel-->
+
+
 			<div class="row mt-3">
 				<div class="col-md-6 my-3">
-					<div class="carousel slide" data-ride="carousel">
+
+					<div id="Carousel" class="carousel slide" data-ride="carousel">
 						<div class="carousel-inner">
 							<div class="carousel-item active">
 								<a href="https://placeholder.com"><img class="d-block w-100" src="https://placeimg.com/450/300/tech/grayscale"></a>
@@ -133,6 +136,9 @@
 						</a>
 					</div>
 				</div>
+
+
+
 				<div class="col-md-6 text-left text-md-right">
 					<p>Lorem ipsum dolor amet la croix man bun tacos pabst woke trust fund, literally sustainable
 						deep v. Hexagon artisan chartreuse freegan, church-key jianbing vape scenester bespoke cold-pressed.
