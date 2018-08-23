@@ -3,6 +3,7 @@
 body {
 	font-family: 'Rubik', sans-serif;
 	background-color: #343a40;
+
 }
 
 .row {
@@ -118,3 +119,5 @@ footer {
 .fab:hover{
 	color: dodgerblue;
 }
+
+
