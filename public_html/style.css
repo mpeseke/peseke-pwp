@@ -110,6 +110,16 @@ footer {
 	text-align: center;
 }
 
+.fa-arrow-circle-up {
+	color: white;
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+.fa-arrow-circle-up:hover {
+	color: dodgerblue;
+}
+
 .fab {
 	color: white;
 	margin-left: 1rem;
