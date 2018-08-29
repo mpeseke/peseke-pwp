@@ -6,16 +6,26 @@
  		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-		<!-- BootStrap CSS and jQuery Slim-->
-
+		<!-- BootStrap, CSS, FontAwesome, and jQuery Slim-->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 		<link rel="stylesheet" href="style.css">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+		<!-- jQuery Form, Additional Methods, Validate -->
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
+
+		<!-- Google reCAPTCHA -->
+		<script src='https://www.google.com/recaptcha/api.js'></script>
+
+		<!-- Your JavaScript Form Validator -->
+		<script src="js/form-validate.js"></script>
+
 
 		<title>Marlon Oliver Peseke</title>
 
@@ -85,12 +95,8 @@
 			<div class="row mt-3">
 				<div class="col-md-8">
 					<p class="mx-2">
-						Lorem ipsum dolor amet vaporware 90's quinoa put a bird on it banh mi selfies echo park pop-up slow-carb
-						vexillologist offal church-key crucifix. Prism raw denim chambray sriracha, hot chicken af paleo truffaut quinoa
-						fashion axe bitters PBR&B. Banjo VHS biodiesel fashion axe subway tile. Yuccie gochujang coloring book
-						cardigan hot chicken fashion axe meditation occupy pickled. Four loko art party irony flexitarian marfa DIY organic yr.
-						Narwhal health goth pitchfork schlitz, offal gluten-free subway tile copper mug aesthetic man braid chartreuse
-						adaptogen kitsch.
+						Thank you for taking the time to visit my site! My name is Marlon Oliver Peseke and I am a full stack web developer interested in pursuing a career in New Mexico's tech scene.
+						I come from a teaching background, and am a lifelong learner. As such, I am motivated to learn as much so I can to be an asset to any team I am placed on.
 					</p>
 					<p class="mx-2">
 						Raw denim poke street art pinterest shaman pickled you probably haven't heard of them swag irony mixtape
@@ -120,13 +126,13 @@
 					<div id="Carousel" class="carousel slide" data-ride="carousel">
 						<div class="carousel-inner">
 							<div class="carousel-item active">
-								<a href="https://placeholder.com"><img class="d-block w-100" src="https://placeimg.com/450/300/tech/grayscale"></a>
+								<a href="https://placeholder.com"><img class="d-block w-100" src="content/nerdnook.JPG"></a>
 							</div>
 							<div class="carousel-item">
-								<a href="https://placeholder.com"><img class="d-block w-100" src="http://placebeard.it/450x300"></a>
+								<a href="https://placeholder.com"><img class="d-block w-100" src="content/lotr-flex.png"></a>
 							</div>
 							<div class="carousel-item">
-								<a href="https://placeholder.com"><img class="d-block w-100" src="http://www.fillmurray.com/450/300"></a>
+								<a href="https://placeholder.com"><img class="d-block w-100" src="content/wartortle.JPG"></a>
 							</div>
 						</div>
 						<a class="carousel-control-prev" href="#Carousel" role="button" data-slide="prev">
@@ -143,15 +149,11 @@
 
 
 				<div class="col-md-6 text-left text-md-right">
-					<p>Lorem ipsum dolor amet la croix man bun tacos pabst woke trust fund, literally sustainable
-						deep v. Hexagon artisan chartreuse freegan, church-key jianbing vape scenester bespoke cold-pressed.
-						Leggings you probably haven't heard of them retro, succulents offal skateboard selfies bushwick distillery
-						vinyl chia cold-pressed celiac +1 fanny pack. Woke tumblr meggings umami meditation messenger bag vinyl
-						knausgaard shaman +1, raclette master cleanse street art try-hard migas. Chicharrones iPhone pitchfork,
-						gochujang tofu hoodie bicycle rights leggings thundercats 90's organic. Dreamcatcher gochujang banh mi
-						roof party, taxidermy hammock ethical cardigan wolf aesthetic ramps portland la croix enamel pin DIY.</p>
+					<p>In clicking through the slideshow, you will see some of the projects that I've worked on through the course of Deep Dive Coding's Fullstack Bootcamp.
+						In ten short weeks, not only was I able to accomplish the build of the site you are on, but a team of three other students and myself built the "Nerd Nook."
+						Feel free to read more in the by clicking the images in the carousel.</p>
 				</div>
-<!--			</div>-->
+			</div>
 		</article>
 		<!-- Contact Form Header-->
 		<div id="contact" class="row bg-dark text-light">
@@ -161,45 +163,67 @@
 			</div>
 
 		</div>
+
+
 		<!-- Contact Form -->
 		<article class="container p-3 bg-dark text-light">
 
 			<div class="row mt-3">
 				<!-- Contact Form -->
 				<div class="col-md-6 mb-3">
-					<!--Name-->
-					<div class="input-group mb-3">
-						<div class="input-group-prepend">
-							<span class="input-group-text"><i class="fas fa-fw fa-file-signature"></i>Name</span>
+					<form id="email-marlon" method="post" action="/public_html/php/mailer.php">
+						<!--Name-->
+						<div class="form-group mb-3">
+							<div class="input-group">
+								<div class="input-group-prepend">
+									<span class="input-group-text"><i class="fas fa-fw fa-file-signature"></i>Name</span>
+								</div>
+								<input class="form-control" type="text" name="name" id="name" placeholder="Your Name Here">
+							</div>
 						</div>
-						<input type="text" class="form-control">
-					</div>
-					<!--Email-->
-					<div class="input-group mb-3">
-						<div class="input-group-prepend">
-							<span class="input-group-text"><i class="fas fa-fw fa-at"></i>Email</span>
+						<!--Email -->
+						<div class="form-group mb-3">
+							<div class="input-group">
+								<div class="input-group-prepend">
+									<span class="input-group-text"><i class="fas fa-fw fa-at"></i>Email</span>
+								</div>
+								<input class="form-control" type="email" name="email" id="email" placeholder="Your Email">
+							</div>
 						</div>
-						<input type="email" class="form-control">
-					</div>
-					<!--Subject-->
-					<div class="input-group mb-3">
-						<div class="input-group-prepend">
-							<span class="input-group-text"><i class="fas fa-fw fa-comment-alt"></i>Subject</span>
+						<!--Subject -->
+						<div class="input-group mb-3">
+							<div class="input-group">
+								<div class="input-group-prepend">
+									<span class="input-group-text"><i class="fas fa-fw fa-comment-alt"></i>Subject</span>
+								</div>
+								<input class="form-control" type="text" name="subject" id="subject" placeholder="What Are You Writing About?">
+							</div>
 						</div>
-						<input type="text" class="form-control">
-					</div>
-					<!-- Message -->
-					<div class="input-group mb-3">
-						<div class="input-group-prepend">
-							<span class="input-group-text"><i class="fas fa-fw fa-envelope"></i>Message</span>
+						<!-- Message -->
+						<div class="input-group mb-3">
+							<div class="input-group">
+								<div class="input-group-prepend">
+									<span class="input-group-text"><i class="fas fa-fw fa-envelope"></i>Message</span>
+								</div>
+								<textarea class="form-control" name="message" id="message" rows="4" placeholder="Please limit message to 2000 characters."></textarea>
+							</div>
 						</div>
-						<textarea class="form-control"></textarea>
+						<!--reCaptcha-->
+						<div class="g-recaptcha" data-sitekey="6LcLoWsUAAAAAFP3wAlvO2ukY2JWPzHDs1GYIUQr"></div>
+
+						<!--Buttons!-->
+						<div class="buttons">
+							<button class="btn btn-success" type="submit"><i class="fas fa-check-circle fa-fw"></i>Submit</button>
+							<button class="btn btn-danger" type="reset"><i class="fas fa-history fa-fw"></i>Reset</button>
+						</div>
+					</form>
+					<!--empty area for form error/success output-->
+					<div class="row">
+						<div class="col-xs-12">
+							<div id="output-area"></div>
+						</div>
 					</div>
 
-					<div class="buttons">
-						<button type="submit" class="btn btn-success"><i class="fas fa-check-circle fa-fw"></i>Submit</button>
-						<button type="reset" class="btn btn-danger"><i class="fas fa-history fa-fw"></i>Reset</button>
-					</div>
 				</div>
 
 				<!-- Links -->
