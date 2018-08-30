@@ -232,6 +232,7 @@
 						<p class="font-italic pt-2">"If we marry educational technology with quality, enriching content, that's a circle of win."</p>
 						<footer class="blockquote-footer">LeVar Burton</footer>
 					</blockquote>
+
 				<div class="text-center">
 					<a href="index.php#page-top"><i class="fas fa-arrow-circle-up fa-5x"></i></a>
 				</div>
