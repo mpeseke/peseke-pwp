@@ -26,7 +26,6 @@
 		<!-- Your JavaScript Form Validator -->
 		<script src="js/form-validate.js"></script>
 
-
 		<title>Marlon Oliver Peseke</title>
 
  	</head>
@@ -212,18 +211,20 @@
 						<!--reCaptcha-->
 						<div class="g-recaptcha mb-3" data-sitekey="6LcLoWsUAAAAAFP3wAlvO2ukY2JWPzHDs1GYIUQr"></div>
 
+						<!--empty area for form error/success output-->
+						<div class="row">
+							<div class="col-xs-12">
+								<div id="output-area"></div>
+							</div>
+						</div>
+
 						<!--Buttons!-->
 						<div class="buttons">
 							<button class="btn btn-success" type="submit"><i class="fas fa-check-circle fa-fw"></i>Submit</button>
 							<button class="btn btn-danger" type="reset"><i class="fas fa-history fa-fw"></i>Reset</button>
 						</div>
 					</form>
-					<!--empty area for form error/success output-->
-					<div class="row">
-						<div class="col-xs-12">
-							<div id="output-area"></div>
-						</div>
-					</div>
+
 
 				</div>
 
