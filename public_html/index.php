@@ -115,23 +115,21 @@
 				<h1 class="display-4 text-center">Projects</h1></div>
 		</div>
 			<!-- Projects -->
-		<article class="container bg-dark text-light p-3">
+		<article class="container bg-dark text-light">
 <!--		 Carousel-->
-
-
-			<div class="row mt-3">
-				<div class="col-md-6 my-3">
+			<div class="row my-3">
+				<div class="col-md-8 offset-md-2 mt-3">
 
 					<div id="Carousel" class="carousel slide" data-ride="carousel">
-						<div class="carousel-inner">
+						<div class="carousel-inner" role="listbox" style="width: 100%; height: 400px; !important;">
 							<div class="carousel-item active">
-								<a href="https://placeholder.com"><img class="d-block w-100" src="content/nerdnook.JPG"></a>
+								<a href="https://placeholder.com"><img class="d-block w-100" src="content/capstone.jpg"></a>
 							</div>
 							<div class="carousel-item">
-								<a href="https://placeholder.com"><img class="d-block w-100" src="content/lotr-flex.png"></a>
+								<a href="https://placeholder.com"><img class="d-block w-100" src="content/pokemon.png"></a>
 							</div>
 							<div class="carousel-item">
-								<a href="https://placeholder.com"><img class="d-block w-100" src="content/wartortle.JPG"></a>
+								<a href="https://placeholder.com"><img class="d-block w-100" src="content/lotr.jpg"></a>
 							</div>
 						</div>
 						<a class="carousel-control-prev" href="#Carousel" role="button" data-slide="prev">
@@ -144,15 +142,14 @@
 						</a>
 					</div>
 				</div>
+			</div>
 
-
-
-				<div class="col-md-6 text-left text-md-right">
-					<p>In clicking through the slideshow, you will see some of the projects that I've worked on through the course of Deep Dive Coding's Fullstack Bootcamp.
-						In ten short weeks, not only was I able to accomplish the build of the site you are on, but a team of three other students and myself built the "Nerd Nook."
-						Feel free to read more in the by clicking the images in the carousel.</p>
+			<div class="row">
+				<div class="col-md-8 offset-md-2 text-center">
+					<p class="display-6">Click the images for more!</p>
 				</div>
 			</div>
+
 		</article>
 		<!-- Contact Form Header-->
 		<div id="contact" class="row bg-dark text-light">
