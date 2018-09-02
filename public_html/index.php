@@ -104,36 +104,38 @@
 					<p class="mx-2">
 						"I am fluent in over six million forms of communication." I wish!<br/>
 						I come equipped and ready to code in these languages and frameworks.
-					<table class="table">
-						<thead>
-							<tr>
-								<th class="text-center" colspan="5">Languages and Frameworks</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<th scope="row">Languages</th>
-								<td>HTML <i class="fab fa-html5"></i></td>
-								<td>CSS <i class="fab fa-css3-alt"></i></td>
-								<td>JavaScript <i class="fab fa-js-square"></i></td>
-								<td>PHP <i class="fab fa-php"></i></td>
-							</tr>
-							<tr>
-								<th scope="row">Frameworks</th>
-								<td colspan="2.5">Angular <i class="fab fa-angular"></i></td>
-								<td colspan="2.5">Bootstrap</td>
-							</tr>
-							<tr>
-								<th scope="row">Tools and Databases</th>
-								<td colspan="2">GitHub <i class="fab fa-github"></i></td>
-								<td>PhpStorm</td>
-								<td>mySQL</td>
-							</tr>
-						</tbody>
-					</table>
 					</p>
+					<div class="table-responsive">
+						<table class="table">
+							<thead>
+								<tr>
+									<th class="text-center" colspan="5">Languages and Frameworks</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th scope="row">Languages</th>
+									<td>HTML <i class="fab fa-html5"></i></td>
+									<td>CSS <i class="fab fa-css3-alt"></i></td>
+									<td>JavaScript <i class="fab fa-js-square"></i></td>
+									<td>PHP <i class="fab fa-php"></i></td>
+								</tr>
+								<tr>
+									<th scope="row">Frameworks</th>
+									<td colspan="2.5">Angular <i class="fab fa-angular"></i></td>
+									<td colspan="2.5">Bootstrap</td>
+								</tr>
+								<tr>
+									<th scope="row">Tools and Databases</th>
+									<td colspan="2">GitHub <i class="fab fa-github"></i></td>
+									<td>PhpStorm</td>
+									<td>mySQL</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
 				</div>
-				<div class="col-md-4 text-center order-first order-sm-first order-md-last order-lg-last my-3">
+				<div class="col-md-4 text-center order-first order-sm-first order-md-last order-lg-last my-5">
 						<img class="img-thumbnail" src="content/headshot.jpg" alt="image of Marlon Peseke">
 				</div>
 			</div>
