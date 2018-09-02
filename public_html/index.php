@@ -116,22 +116,28 @@
 		</div>
 			<!-- Projects -->
 		<article class="container bg-dark text-light">
+
+			<div class="row mt-3">
+				<div class="col-md-8 offset-md-2 text-center">
+					<p class="display-6">Click the images for more!</p>
+				</div>
+			</div>
 <!--		 Carousel-->
-			<div class="row my-3">
-				<div class="col-md-8 offset-md-2 mt-3">
+			<div class="row mb-3">
+
+				<div class="col-md-8 offset-md-2">
 
 					<div id="Carousel" class="carousel slide" data-ride="carousel">
 						<div class="carousel-inner" role="listbox" style="width: 100%; height: 400px; !important;">
 							<div class="carousel-item active">
-								<a href="https://placeholder.com"><img class="d-block w-100" src="content/capstone.jpg"></a>
+								<a href="#capstone-info" data-toggle="modal"><img class="d-block w-100" src="content/capstone.jpg"></a>
 							</div>
 							<div class="carousel-item">
-								<a href="https://placeholder.com"><img class="d-block w-100" src="content/pokemon.png"></a>
+								<a href="#flexbox-info" data-toggle="modal"><img class="d-block w-100" src="content/lotr.jpg"></a>
 							</div>
 							<div class="carousel-item">
-								<a href="https://placeholder.com"><img class="d-block w-100" src="content/lotr.jpg"></a>
+								<a href="#poke-info" data-toggle="modal"><img class="d-block w-100" src="content/pokemon.png"></a>
 							</div>
-						</div>
 						<a class="carousel-control-prev" href="#Carousel" role="button" data-slide="prev">
 							<span class="carousel-control-prev-icon"></span>
 							<span class="sr-only">Previous</span>
@@ -144,11 +150,67 @@
 				</div>
 			</div>
 
-			<div class="row">
-				<div class="col-md-8 offset-md-2 text-center">
-					<p class="display-6">Click the images for more!</p>
+			<!-- Modals -->
+			<div class="modal fade" id="capstone-info" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="capstoneInfoTitle">The Nerd Nook</h5>
+						</div>
+						<div class="modal-body">
+							The biggest, and most time intensive project I have worked on to date is the "Nerd Nook." In this project a team of myself and three other developers worked for seven weeks
+							to develop a "meetup" style website geared toward getting people of similar interest groups connected. We used a stack of mySQL, PHP, and Angular, with mySQL and PHP in the backend, and Angular
+							in the front. We had a blast learning a new framework and learning from one another. This project truly prepared me for development in the real world in that I was working with a stack I was not
+							immediately familiar with, but I had to learn along the way, and I was able to work with a team I was totally new to, as well.
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+							<input type="button" class="btn btn-primary" value="GitHub" onclick="location.href ='https://github.com/mpeseke/nerd-nook';">
+
+						</div>
+					</div>
 				</div>
 			</div>
+
+			<div class="modal fade" id="flexbox-info" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalCenterTitle">JavaScript Flex Gallery</h5>
+						</div>
+						<div class="modal-body">
+							Inspired by Wes Bos' JavaScript 30 and my love for Lord of the Rings, I revamped this design for a Flex Gallery. I appreciated the sophisticated and clean way that
+							vanilla JavaScript and CSS were used to design the flex boxes, and look forward to using this feature on passion projects or client websites in the future.
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+							<input type="button" class="btn btn-primary" value="GitHub" onclick="location.href ='https://github.com/mpeseke/lotr-image';">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="modal fade" id="poke-info" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalCenterTitle">Pokémon Go! Field Dex: In Progress</h5>
+						</div>
+						<div class="modal-body">
+							Over the lifecycle of this project, the scope changed from something that I was able to enjoy with my kids to something that has the potential to serve the Pokémon Go! community.
+							I am in the process of Angular integration for this application, as well as designing my own API's or finding API's for it. Right now, "Dex" data is being added manually, and this is becoming tedious.
+							That said, I am excited to have more time with the project, as I believe there is still much to learn about Angular and API integration for the Field Dex. One day, I hope to be able to roll up to a gym,
+							choose the best monsters based on the compiled data, and be the best there ever was!
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+							<input type="button" class="btn btn-primary" value="GitHub" onclick="location.href ='https://github.com/mpeseke/pokedex';">
+						</div>
+					</div>
+				</div>
+			</div>
+
+
 
 		</article>
 		<!-- Contact Form Header-->
