@@ -94,20 +94,70 @@
 			<div class="row mt-3">
 				<div class="col-md-8">
 					<p class="mx-2">
-						Thank you for taking the time to visit my site! My name is Marlon Oliver Peseke and I am a full stack web developer interested in pursuing a career in New Mexico's tech scene.
-						I come from a teaching background, and am a lifelong learner. As such, I am motivated to learn as much so I can to be an asset to any team I am placed on.
+						As a teacher, I believe in the importance of continued learning. This is the defining trait of a good computer programmer! A good programmer never stops learning because the technology is ever moving.
+						My goal as a programmer is to always be on top of my game, always learning, and always hungry for more.
 					</p>
 					<p class="mx-2">
-						Raw denim poke street art pinterest shaman pickled you probably haven't heard of them swag irony mixtape
-						ethical skateboard. Ramps chartreuse viral, plaid thundercats kinfolk chicharrones vaporware intelligentsia
-						man braid kombucha swag iPhone truffaut twee. Normcore cray gentrify keytar. Crucifix tumeric lo-fi la
-						croix etsy distillery. Cred sriracha craft beer fashion axe thundercats pitchfork, typewriter meggings chartreuse.
+						I have been fortunate enough to gain this skill set through the support of my friends and <a href="content/family-photo.jpg" data-toggle="modal" data-target="#familyphoto">family</a>, most specifically, my wife Caitlin. Caitlin and I have three children. I am so grateful for the opportunity to be a part of an industry that is never
+						boring, and am excited to be a contributor to the Albuquerque development community, and beyond.
+					</p>
+					<p class="mx-2">
+						"I am fluent in over six million forms of communication." I wish!<br/>
+						I come equipped and ready to code in these languages and frameworks.
+					<table class="table">
+						<thead>
+							<tr>
+								<th class="text-center" colspan="5">Languages and Frameworks</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th scope="row">Languages</th>
+								<td>HTML <i class="fab fa-html5"></i></td>
+								<td>CSS <i class="fab fa-css3-alt"></i></td>
+								<td>JavaScript <i class="fab fa-js-square"></i></td>
+								<td>PHP <i class="fab fa-php"></i></td>
+							</tr>
+							<tr>
+								<th scope="row">Frameworks</th>
+								<td colspan="2.5">Angular <i class="fab fa-angular"></i></td>
+								<td colspan="2.5">Bootstrap</td>
+							</tr>
+							<tr>
+								<th scope="row">Tools and Databases</th>
+								<td colspan="2">GitHub <i class="fab fa-github"></i></td>
+								<td>PhpStorm</td>
+								<td>mySQL</td>
+							</tr>
+						</tbody>
+					</table>
 					</p>
 				</div>
 				<div class="col-md-4 text-center order-first order-sm-first order-md-last order-lg-last my-3">
 						<img class="img-thumbnail" src="content/headshot.jpg" alt="image of Marlon Peseke">
 				</div>
 			</div>
+
+			<!-- Family Photo Modal -->
+			<div class="modal fade" id="familyphoto" tabindex="-1" role="dialog" aria-labelledby="familyphoto" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="familyphoto">Aren't we cute?</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<img class="img-responsive" style="height:475px; max-width: 100%" src="content/family-photo.jpg" alt="pesekefamily">
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
 		</article>
 		<!-- Project Header-->
 		<div id="project" class="row bg-dark text-light">
@@ -151,11 +201,14 @@
 			</div>
 
 			<!-- Modals -->
-			<div class="modal fade" id="capstone-info" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+			<div class="modal fade" id="capstone-info" tabindex="-1" role="dialog" aria-labelledby="capstone-info" aria-hidden="true">
 				<div class="modal-dialog modal-dialog-centered" role="document">
 					<div class="modal-content">
 						<div class="modal-header">
 							<h5 class="modal-title" id="capstoneInfoTitle">The Nerd Nook</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
 						</div>
 						<div class="modal-body">
 							The biggest, and most time intensive project I have worked on to date is the "Nerd Nook." In this project a team of myself and three other developers worked for seven weeks
@@ -172,11 +225,14 @@
 				</div>
 			</div>
 
-			<div class="modal fade" id="flexbox-info" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+			<div class="modal fade" id="flexbox-info" tabindex="-1" role="dialog" aria-labelledby="flexbox-info" aria-hidden="true">
 				<div class="modal-dialog modal-dialog-centered" role="document">
 					<div class="modal-content">
 						<div class="modal-header">
-							<h5 class="modal-title" id="exampleModalCenterTitle">JavaScript Flex Gallery</h5>
+							<h5 class="modal-title" id="jsflextitle">JavaScript Flex Gallery</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
 						</div>
 						<div class="modal-body">
 							Inspired by Wes Bos' JavaScript 30 and my love for Lord of the Rings, I revamped this design for a Flex Gallery. I appreciated the sophisticated and clean way that
@@ -190,11 +246,14 @@
 				</div>
 			</div>
 
-			<div class="modal fade" id="poke-info" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+			<div class="modal fade" id="poke-info" tabindex="-1" role="dialog" aria-labelledby="poke-info" aria-hidden="true">
 				<div class="modal-dialog modal-dialog-centered" role="document">
 					<div class="modal-content">
 						<div class="modal-header">
-							<h5 class="modal-title" id="exampleModalCenterTitle">Pokémon Go! Field Dex: In Progress</h5>
+							<h5 class="modal-title" id="poketitle">Pokémon Go! Field Dex: In Progress</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
 						</div>
 						<div class="modal-body">
 							Over the lifecycle of this project, the scope changed from something that I was able to enjoy with my kids to something that has the potential to serve the Pokémon Go! community.
@@ -254,7 +313,7 @@
 								<div class="input-group-prepend">
 									<span class="input-group-text"><i class="fas fa-fw fa-comment-alt"></i>Subject</span>
 								</div>
-								<input class="form-control" type="text" name="subject" id="subject" placeholder="What Are You Writing About?">
+								<input class="form-control" type="text" name="subject" id="subject" placeholder="Message purpose?">
 							</div>
 						</div>
 						<!-- Message -->
