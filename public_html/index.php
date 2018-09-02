@@ -151,7 +151,7 @@
 							</button>
 						</div>
 						<div class="modal-body">
-							<img class="img-responsive" style="height:475px; max-width: 100%" src="content/family-photo.jpg" alt="pesekefamily">
+							<img class="img-responsive" src="content/family-photo.jpg" alt="pesekefamily">
 						</div>
 						<div class="modal-footer">
 							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -180,7 +180,7 @@
 				<div class="col-md-8 offset-md-2">
 
 					<div id="Carousel" class="carousel slide" data-ride="carousel">
-						<div class="carousel-inner" role="listbox" style="width: 100%; height: 400px; !important;">
+						<div class="carousel-inner" role="listbox">
 							<div class="carousel-item active">
 								<a href="#capstone-info" data-toggle="modal"><img class="d-block w-100" src="content/capstone.jpg"></a>
 							</div>
